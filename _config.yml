@@ -19,8 +19,7 @@ linkedin_username: "linkedinuser"
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 #remote_theme: tareqdandachi/jekyll-shell-theme 
-remote_theme: benbalter/retlab
-#theme: minima
+theme: minima
 
 rss: rss
 
