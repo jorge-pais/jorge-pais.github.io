@@ -23,15 +23,9 @@ remote_theme: tareqdandachi/jekyll-shell-theme
 
 rss: rss
 
-highlighter: rouge
-
 header_pages:
   - index.md
   - archive.md
-
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
     
 plugins:
   - jemoji
