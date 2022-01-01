@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog Archive
-permalink: /
+permalink: /archive
 permalink_name: /archive
 ---
 
