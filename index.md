@@ -2,6 +2,7 @@
 layout: home
 permalink: /
 permalink_name: /home
+title: Index
 ---
 
 Welcome to my blog.
