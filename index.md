@@ -1,6 +1,10 @@
 
-Here you can say lots of fun things about your site.
+Welcome to my blog.
 
-Maybe say a some things about yourself.
+It is here where I write about the projects I have worked on.
 
-Or maybe what you plan to blog about.
+I'm mostly interested in electronics, computer hardware, music and open source / open hardware.
+
+> Art without engineering is dreaming. Engineering without art is calculating.
+- * Steven K. Roberts * 
+
