@@ -18,8 +18,8 @@ linkedin_username: "jorg3-pais"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-#remote_theme: tareqdandachi/jekyll-shell-theme 
-theme: minima
+remote_theme: tareqdandachi/jekyll-shell-theme 
+#theme: minima
 
 rss: rss
 
