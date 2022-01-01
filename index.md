@@ -1,6 +1,6 @@
 ---
 layout: home
-permalink: /
+permalink: /home
 permalink_name: /home
 ---
 
