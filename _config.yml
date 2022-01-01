@@ -23,6 +23,8 @@ remote_theme: tareqdandachi/jekyll-shell-theme
 
 rss: rss
 
+highligher: rogue
+
 header_pages:
   - index.md
   - archive.md
