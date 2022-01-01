@@ -1,3 +1,8 @@
+---
+layout: home
+permalink: /
+permalink_name: /home
+---
 
 Welcome to my blog.
 
