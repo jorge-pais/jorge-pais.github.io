@@ -1,3 +1,11 @@
+---
+layout: post
+date: 2021-12-31
+tags: 
+    - Music
+    - Electronics
+---
+
 # DIY MIDI Controller
 
 ## 1. Introduction to MIDI
