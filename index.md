@@ -5,7 +5,7 @@ permalink_name: /home
 title: Index
 ---
 
-<img class="center" src="/img/index.svg" alt="Logo" width="600"> 
+<!-- <img class="center" src="/img/index.svg" alt="Logo" width="400">  -->
 
 Welcome to my blog.
 
