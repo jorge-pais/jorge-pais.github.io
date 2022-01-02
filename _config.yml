@@ -5,9 +5,9 @@ description: "Art && Engineering" # This will show up in places like twitter, li
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
 email: "up201904841@edu.fe.up.pt"
-#twitter_username: "twitteruser"
 github_username: "jorge-pais"
 linkedin_username: "jorg3-pais"
+#twitter_username: "twitteruser"
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
@@ -28,6 +28,7 @@ highligher: rogue
 header_pages:
   - index.md
   - archive.md
+  - about.md
     
 plugins:
   - jemoji
