@@ -5,6 +5,8 @@ permalink_name: /home
 title: Index
 ---
 
+<img src="/img/index.svg" alt="Logo" width="800" align="middle"> 
+
 Welcome to my blog.
 
 It is here where I blog about the projects I have worked on, current ones and whatever really might make sense being here.
