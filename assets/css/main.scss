@@ -30,7 +30,7 @@ a:hover { color: var(--bg-color); background-color: var(--alt-color); }
 b, strong { color: var(--main-color); }
 .invert { color: var(--bg-color); background-color: var(--main-color); padding-left: 3px; padding-right: 3px; padding-top: 1px; padding-bottom: 1px; }
 img {max-width: 100%; height: auto;}
-.center{display: block; margin-left: auto; margin-right: auto;}
+img.center{display: block; margin-left: auto; margin-right: auto;}
 
 /* SMALL FONT OVERRIDE */
 body.large { line-height: 2em; font-size: 1em; }
