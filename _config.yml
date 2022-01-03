@@ -18,7 +18,7 @@ linkedin_username: "jorg3-pais"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-remote_theme: tareqdandachi/jekyll-shell-theme 
+#remote_theme: tareqdandachi/jekyll-shell-theme 
 #theme: minima
 
 rss: rss
@@ -37,9 +37,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-titles_from_headings:
-  strip_title: true
-  collections: true
+#titles_from_headings:
+#  strip_title: true
+#  collections: true
 
 defaults:
   - scope:

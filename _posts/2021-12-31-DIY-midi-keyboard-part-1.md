@@ -1,12 +1,16 @@
 ---
 layout: post
+title: DIY MIDI Controller
 date: 2021-12-31
 tags: 
     - Music
     - Electronics
+categories:
+    - Music
+    - Arduino
 ---
 
-# DIY MIDI Controller
+<!-- # DIY MIDI Controller -->
 
 ## 1. Introduction to MIDI
 The _**M**usical **I**nstrument **D**igital **I**nterface_ (MIDI) has been since 1981 the prime communication standard that allows electronic musical instruments to send performance data between each other. Examples of such data include: what notes are being played (Note On/Off), the force a note being played at (also known as velocity), program changes, what tempo is being used for the current performance e.t.c. The protocol is at the heart of almost all digital keyboards (and even grand pianos), synthesizers, drum machines, Digital Audio Workstations as well as some non-musical stage equipment. 
