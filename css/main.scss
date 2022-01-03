@@ -14,8 +14,8 @@
 
   --text-color: #DDD;
   --pop-color: white;
-  --alt-color: #2ed573;
-  --light-alt-color: rgba(46, 213, 115);
+  --alt-color: #8ec07c;
+  --light-alt-color: #458588;
 
 }
 
@@ -31,6 +31,7 @@ b, strong { color: var(--main-color); }
 .invert { color: var(--bg-color); background-color: var(--main-color); padding-left: 3px; padding-right: 3px; padding-top: 1px; padding-bottom: 1px; }
 img {max-width: 100%; height: auto;}
 img.center{display: block; margin: 0 auto;}
+blockquote{font-style: italic; border-left: 2px solid var(--main-color); padding: 0px 1em; }
 
 /* SMALL FONT OVERRIDE */
 body.large { line-height: 2em; font-size: 1em; }

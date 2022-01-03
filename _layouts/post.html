@@ -7,6 +7,9 @@ title:  "POSTS"
 
 <!-- <h1>{{ page.post-title }}</h1> -->
 
-{% include sharelinks.html %}
+<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+    {%- assign date_format = "%a, %b %d, %Y" -%}
+    {{ page.date | date: date_format }}
+</time> • {% include sharelinks.html %}
 
 {{ content }}
