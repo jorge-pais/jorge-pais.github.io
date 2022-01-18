@@ -5,7 +5,7 @@ permalink: /resume
 permalink_name: /resume
 ---
 
-<img src="/img/profile.png" class="center" width="600" style="border-radius: 50%">
+<img src="/img/profile.png" class="center" width="130" style="border-radius: 50%">
 
 # About me
 ---
