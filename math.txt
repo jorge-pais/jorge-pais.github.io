@@ -1,0 +1,2 @@
+https://www.katarinahoeger.com/2017/12/08/jekyll-supports-math
+https://www.mathjax.org/
