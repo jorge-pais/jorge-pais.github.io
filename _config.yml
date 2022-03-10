@@ -28,7 +28,7 @@ highligher: rogue
 header_pages:
   - index.md
   - resume.md
-  - archive.md
+  - articles.md
   - about.md
     
 plugins:

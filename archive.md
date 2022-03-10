@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Blog Archive
-permalink: /archive
-permalink_name: /archive
+permalink: /articles
+permalink_name: /articles
 ---
 
 {% for tag in site.tags %}
