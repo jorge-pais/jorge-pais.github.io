@@ -14,7 +14,7 @@ Motivated and resourceful electrical and computer engineering student. Eager to 
 # Education
 ---
 ## Faculty of Engineering of University of Porto (2019 - Current)
-Currently enrolled in the Bachelor in Electrical and Computer Engineering at FEUP. Current grade average of 15.51 out of 20.
+Currently enrolled in the Bachelor in Electrical and Computer Engineering at FEUP. Current grade average of 15.85 out of 20.
 
 ## Secondary School of Santa Maria da Feira (2016 - 2019)
 Previously studied sciences and techlogies at the Secondary School of Santa Maria da Feira. Concluded with a grade average of 176 out of 200.

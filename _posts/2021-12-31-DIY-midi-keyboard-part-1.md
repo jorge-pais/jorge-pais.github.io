@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DIY MIDI Controller
+title: (Unfinished) DIY MIDI Controller
 date: 2021-12-31
 tags: 
     - Music
