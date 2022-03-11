@@ -25,7 +25,7 @@ Previously studied sciences and techlogies at the Secondary School of Santa Mari
 Experience using both LTSpice for design and simulation of analog circuits and the KiCad software suite for PCB design.
 
 ## Programming Languages and Technologies
-Proficient in C and Assembly. Also confortable using C++, C#, Java and Matlab/Octave. Familiar with the .NET framework and the Unity Game Engine.
+Proficient in C and ARM Assembly. Also confortable using C++, C# and Matlab/Octave. Familiar with the .NET framework and the Unity Game Engine.
 
 ## Computer Literacy
 Familiar with both Windows and GNU/Linux operating systems. 

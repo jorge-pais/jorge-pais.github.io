@@ -1,10 +1,9 @@
 ---
 layout: post
-title: (Unfinished) DIY MIDI Controller
+title: (TEST ARTICLE) DIY MIDI Controller
 date: 2021-12-31
 tags: 
-    - Music
-    - Electronics
+    - Music Electronics
 categories:
     - projects
 ---

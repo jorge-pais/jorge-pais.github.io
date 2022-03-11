@@ -3,8 +3,7 @@ layout: post
 title: The Muffler Delete
 date: 2022-03-10
 tags: 
-    - Music
-    - Electronics
+    - Music Electronics
 categories:
     - projects
 ---
