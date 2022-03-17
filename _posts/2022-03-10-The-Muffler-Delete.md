@@ -63,14 +63,14 @@ Finally the signal is amplified once again before leaving the pedal. The output 
 
 # Deleting the Muffler
 
-Although the pedal is great by itself, many players usually will have a booster pedal alongside it while playing live, and engaging said booster during solo sections to allow their solo to ‘cut through the mix’. It this in mind I sketched out the following schematic in KiCad: 
+Although the pedal is great by itself, many players usually will have a booster pedal alongside it while playing live, and engaging said booster during solo sections to allow their solo to ‘cut through the mix’. With this in mind I sketched out the following schematic in KiCad: 
 
 ![https://user-images.githubusercontent.com/70813514/156430954-624521ef-dc38-42bb-966f-062b9164a765.png](https://user-images.githubusercontent.com/70813514/156430954-624521ef-dc38-42bb-966f-062b9164a765.png)
 
-I also added a DPDT switch to change the clipping diodes from a the usual silicon ones to LEDs. The PCB also designed in KiCad:
+I've also added a DPDT switch to change the clipping diodes from a the usual silicon ones to LEDs. The PCB was also designed in KiCad:
 
 ![https://user-images.githubusercontent.com/70813514/156431114-f36bfcc2-6494-457e-acde-719c579c7105.png](https://user-images.githubusercontent.com/70813514/156431114-f36bfcc2-6494-457e-acde-719c579c7105.png)
 
 ![https://user-images.githubusercontent.com/70813514/156431423-93650aa1-cfdb-416e-a4b2-3601d4135076.png](https://user-images.githubusercontent.com/70813514/156431423-93650aa1-cfdb-416e-a4b2-3601d4135076.png)
 
-I left the Big Muff circuit and the Linear Power Booster wiring separated to allow more flexible wiring schemes. All the schematics and pcb files are available freely on my [github](https://github.com/jorge-pais/mufflerdelete) page.
+I left the inputs/outputs of the Big Muff circuit and the Linear Power Booster separated to allow more flexible wiring schemes. All the schematics and pcb files are available freely on my [github](https://github.com/jorge-pais/mufflerdelete) page.
