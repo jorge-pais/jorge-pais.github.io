@@ -10,5 +10,6 @@ gem "jemoji", "~> 0.12.0"
 gem "jekyll-feed", "~> 0.15.1"
 gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-seo-tag", "~> 2.7"
+gem 'json', '~>2.5.1'
 
 gem "webrick", "~> 1.7"

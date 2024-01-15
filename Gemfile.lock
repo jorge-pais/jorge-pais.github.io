@@ -14,7 +14,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.15.4)
+    ffi (1.16.3)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     html-pipeline (2.14.0)
@@ -52,6 +52,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
+    json (2.5.1)
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -70,7 +71,7 @@ GEM
     racc (1.6.0)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
-      ffi (>= 1.0)
+      ffi (~> 1.0)
     rexml (3.2.5)
     rouge (3.27.0)
     safe_yaml (1.0.5)
@@ -92,6 +93,7 @@ DEPENDENCIES
   jekyll-seo-tag (~> 2.7)
   jekyll-sitemap (~> 1.4)
   jemoji (~> 0.12.0)
+  json (~> 2.5.1)
   webrick (~> 1.7)
 
 BUNDLED WITH
