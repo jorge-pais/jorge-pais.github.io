@@ -6,6 +6,8 @@ tags:
     - Music Electronics
 categories:
     - projects
+
+permalink_name: /projects
 ---
 
 <!-- # The Muffler Delete -->
