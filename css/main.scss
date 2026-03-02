@@ -61,6 +61,61 @@ ul :not(.menu) > ul > li:before { content: "*";  margin-right: 9px; }
 .menu ul li a:hover { text-decoration: none; color: var(--bg-color); background-color: var(--main-color); }
 .menu ul li.page_title { text-align: left; margin-left: 10px; float: left; font-weight: bold; color: var(--main-color) }
 
+/* RESET CODE BLOCK SPACING */
+pre, code {
+    font-size: 1.1em;
+    white-space: pre;       /* Prevents accidental double-wrapping */
+    line-height: 1.8em;     /* A tighter, more standard code line height */
+    word-break: normal;     /* Prevents weird splitting of code keywords */
+    word-wrap: normal;
+}
+
+/* If Jekyll/Kramdown is wrapping your code in divs/figures */
+.highlight pre {
+    margin: 0;
+    padding: 1em;
+    background-color: #1d2021; /* Slightly darker than your bg for contrast */
+    border-radius: 4px;
+    overflow-x: auto;       /* Adds horizontal scroll if code is too long */
+}
+p code, li code {
+    color: var(--main-color);     /* Matches your b, strong style */
+    background-color: rgba(255, 255, 255, 0.05); /* Optional: slight highlight */
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: 'Source Code Pro', monospace; /* Use your imported font */
+}
+
+/* TABLE STYLING */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: 'Source Code Pro', monospace; /* Keeping the coder aesthetic */
+}
+
+th {
+  text-align: left;
+  color: var(--alt-color); /* Using your green #8ec07c for headers */
+  border-bottom: 2px solid var(--light-alt-color);
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  color: var(--text-color);
+  vertical-align: top;
+}
+
+/* Zebra striping (Optional, for better readability) */
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Ensuring bold text in tables matches your main color */
+td strong, td b {
+  color: var(--main-color);
+}
 
 /* ERROR PAGES */
 

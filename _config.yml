@@ -48,3 +48,6 @@ defaults:
       type: post
     values:
       tags: Other
+
+exclude:
+  - tools
