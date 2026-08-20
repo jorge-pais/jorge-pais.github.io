@@ -7,11 +7,11 @@ permalink_name: /resume
 
 <img src="/img/profile.png" class="center" width="130" style="border-radius: 50%">
 
-# About me
----
-
-Motivated and resourceful electrical and computer engineer, passionate musician and tech enthusiast. Always eager to learn new skills and technologies in order to continually improve. Efficient working both independently or in a team environment.
-Self-taught programmer with an deep interest for electronics, open source software and open hardware. Right-to-repair advocate and environmentalist.
+<!-- # About me -->
+<!-- --- -->
+<!---->
+<!-- Motivated and resourceful electrical and computer engineer, passionate musician and tech enthusiast. Always eager to learn new skills and technologies in order to continually improve. Efficient working both independently or in a team environment. -->
+<!-- Self-taught programmer with an deep interest for electronics, open source software and open hardware. Right-to-repair advocate and environmentalist. -->
 
 # Education
 ---
