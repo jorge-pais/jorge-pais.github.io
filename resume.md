@@ -2,7 +2,7 @@
 layout: home
 title: Resume
 permalink: /resume
-permalink_name: /resume
+permalink_name: resume
 ---
 
 <img src="/img/profile.png" class="center" width="130" style="border-radius: 50%">
@@ -14,6 +14,7 @@ permalink_name: /resume
 <!-- Self-taught programmer with an deep interest for electronics, open source software and open hardware. Right-to-repair advocate and environmentalist. -->
 
 # Education
+
 ---
 
 ## Master of Electrical and Computer Engineering @ FEUP : Set 2022 - Jan 2025
@@ -29,6 +30,7 @@ Programme for exchange students - Master of Electronics and ICT Engineering Tech
 Finished with a grade average of 16/20
 
 # Work Experience
+
 ---
 
 ## Critical Techworks @ Porto, Portugal : Jan 2024 - Present
@@ -76,12 +78,12 @@ Research Initiation Grant
 * Winner of the FPGA digital circuit design competition at the University of Tours, France.
 * Designed a submerged object detection system using ultrasonic sensors and a **Red Pitaya** board.
 
-### Selected Academic Projects
-
-* [20W Audio Amplifier](https://github.com/jorge-pais/FEUP_PI_Amplificador20W) **(Bachelor Capstone)**: Designed a Class AB power amplifier and PCB with ultra-low noise/THD. (Grade: 18/20)
-* [Spectre Kernel Module PoC](https://github.com/jorge-pais/SSR_HardwareSecurity): Developed a vulnerability exploit to leak kernel memory from user space. (Grade: 18/20)
-* **VLSI 16-bit ALU:** Full custom design using **Cadence Virtuoso** and Spectre for layout and simulation. (Grade: 18/20)
-* [FIR Filter Bank](https://github.com/jorge-pais/PSD_FIR_bank): Developed on **Artix-7 FPGA** using Verilog and Xilinx ISE. (Grade: 18/20)
+<!-- ### Selected Academic Projects -->
+<!---->
+<!-- * [20W Audio Amplifier](https://github.com/jorge-pais/FEUP_PI_Amplificador20W) **(Bachelor Capstone)**: Designed a Class AB power amplifier and PCB with ultra-low noise/THD. (Grade: 18/20) -->
+<!-- * [Spectre Kernel Module PoC](https://github.com/jorge-pais/SSR_HardwareSecurity): Developed a vulnerability exploit to leak kernel memory from user space. (Grade: 18/20) -->
+<!-- * **VLSI 16-bit ALU:** Full custom design using **Cadence Virtuoso** and Spectre for layout and simulation. (Grade: 18/20) -->
+<!-- * [FIR Filter Bank](https://github.com/jorge-pais/PSD_FIR_bank): Developed on **Artix-7 FPGA** using Verilog and Xilinx ISE. (Grade: 18/20) -->
 
 # Volunteering & Hobbies
 

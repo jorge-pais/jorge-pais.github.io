@@ -7,7 +7,7 @@ tags:
 categories:
     - projects
 
-permalink_name: /projects
+permalink_name: projects
 ---
 
 Most programmers live a life of luxury. We call `printf()`, and text appears. We call `sleep()` and the process (which the operating system has already created for us) pauses. We take for granted the massive and almost invisible infrastructure that supports pretty much all applications. This is provided by the C standard library, via implementataions such as glibc and musl.

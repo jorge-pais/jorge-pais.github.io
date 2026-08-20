@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>$if(title)$$title$ - $endif$Jorge Pais</title>
+  <link rel="stylesheet" href="/css/main.css">
+$if(highlighting-css)$
+  <style>
+$highlighting-css$
+  </style>
+$endif$
+  <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)'], ['$$', '$$']],
+      displayMath: [['\\[', '\\]'], ['$$$$', '$$$$']]
+    }
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="menu">
+      <ul>
+        <li class="page_title">$if(title)$$title$$endif$</li>
+        <li><a href="/">/home</a></li>
+        <li><a href="/resume">/resume</a></li>
+        <li><a href="/articles">/articles</a></li>
+      </ul>
+    </div>
+  </header>
+
+$if(detail_image)$  <img class="detail_header" src="$detail_image$">
+$endif$
+  <time datetime="$date$">$date$</time>
+
+  $body$
+
+  <hr>
+  <div class="post_navi">
+$if(prev_url)$
+    <a class="post_navi-item nav_prev" href="$prev_url$" title="$prev_title$">
+      <div class="post_navi-arrow">&lt;</div>
+      <div class="post_navi-label">Previous Post</div>
+      <div><span>$prev_title$</span></div>
+    </a>
+$else$
+    <a class="post_navi-item nav_prev" href="/articles" title="Blog Archive">
+      <div class="post_navi-arrow">&lt;</div>
+      <div class="post_navi-label">Blog Archive</div>
+      <div><span>All posts</span></div>
+    </a>
+$endif$
+$if(next_url)$
+    <a class="post_navi-item nav_next" href="$next_url$" title="$next_title$">
+      <div class="post_navi-arrow">&gt;</div>
+      <div class="post_navi-label">Next Post</div>
+      <div><span>$next_title$</span></div>
+    </a>
+$else$
+    <a class="post_navi-item nav_next" href="/articles" title="Blog Archive">
+      <div class="post_navi-arrow">&gt;</div>
+      <div class="post_navi-label">Blog Archive</div>
+      <div><span>All posts</span></div>
+    </a>
+$endif$
+  </div>
+
+  <footer>
+    Jorge Pais/projects
+    <br><br>
+    Email: <a href="mailto:jorge27pais@gmail.com">jorge27pais@gmail.com</a>
+    &nbsp;&nbsp;
+    Github: <a href="https://github.com/jorge-pais">@jorge-pais</a>
+    &nbsp;&nbsp;
+    Linkedin: <a href="https://linkedin.com/in/jorg3-pais">/jorg3-pais</a>
+  </footer>
+
+</body>
+</html>

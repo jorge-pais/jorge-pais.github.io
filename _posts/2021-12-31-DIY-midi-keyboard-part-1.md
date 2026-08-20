@@ -7,7 +7,7 @@ tags:
 categories:
     - projects
 
-permalink_name: /projects
+permalink_name: projects
 ---
 
 <!-- # DIY MIDI Controller -->

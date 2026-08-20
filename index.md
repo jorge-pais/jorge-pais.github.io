@@ -2,7 +2,7 @@
 layout: home
 title: Index
 permalink: /
-permalink_name: /home
+permalink_name: home
 ---
 
 <!-- <img class="center" src="/img/index.svg" alt="Logo" width="400">  -->

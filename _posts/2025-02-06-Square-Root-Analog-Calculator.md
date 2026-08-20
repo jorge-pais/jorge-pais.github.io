@@ -7,19 +7,18 @@ tags:
 categories:
     - projects
 
-permalink_name: /projects
+permalink_name: projects
 ---
 
 <!-- # Square Root Analog Calculator-->
 
 # The circuit
 
-![circuit diagram](/img/2025-02-06-Square-Root-Analog-Calculator/SquareRootAmplifierSchematic.png)
+![Circuit schematic](/img/2025-02-06-Square-Root-Analog-Calculator/SquareRootAmplifierSchematic.png)
 
 This circuit consists of 4 stages, but the most important one are the first and last. The first is a logarithmic amplifier while the latter is an anti-log amp. The idea is that we take the log of the input voltage, scale it and then reverse the log to obtain the square root. This is simple to understand looking at the following diagram:
 
-![[LogAntiLogSchematic.png]]
-![Log antilog scheme](/img/2025-02-06-Square-Root-Analog-Calculator/LogAntiLogSchematic.png)
+![Log-antilog diagram](/img/2025-02-06-Square-Root-Analog-Calculator/LogAntiLogSchematic.png)
 
 If $V_1 = K_1 \ln{(K_2V_s)}$ and $V_o = K_3\ln^{-1}{(K_4V_2)}$, also assuming that $V_2 = \alpha V_1$, we have that the voltage at the output is:
 
@@ -27,8 +26,11 @@ $$V_o = K_3\ln^{-1}{(K_4\alpha K_1 \ln{(K_2 V_s)})}$$
 Then, we can set values for $K_2 = K_3 = 1$, and the expressions resolves to:
 
 $$V_o = \ln^{-1}{(K_4 \alpha K_1 \ln{(V_s)})} $$
+
 $$V_o = \ln^{-1}(\ln{(V_s^{K_4 \alpha K_1 })})$$
+
 Since for $x > 0: \ln^{-1}{(\ln{x})} = x$:
+
 $$V_o = V_s^{K_4K_1\alpha}$$
 
 The task should be easy then, simply build this 3 stage amplifier, while determining the values needed for the power factor to 1/2, and voila, we have an analog computer capable for calculating square roots.
@@ -56,7 +58,7 @@ There is another approximation we can make, since the voltage drop across $R_3$ 
 
 $$I_2 \approx \frac{V_{CC}}{R_3}$$
 
-We now have enough information to determine the gain of this stage. The voltage at the base of $Q_2$, $v_2$ , can be expressed in order of $V_{BE1}$ and $V_{BE2}$:
+We now have enough information to determine the gain of this stage. The voltage at the base of $Q_2$, $v_2$, can be expressed in order of $V_{BE1}$ and $V_{BE2}$:
 
 $$v_2 = V_{BE2} - V_{BE1} \Leftrightarrow v_2 = V_T \log{\frac{I_2}{I_s}} - V_T \log{\frac{I_1}{I_s}} $$
 
@@ -85,7 +87,9 @@ $$v_3 = \left( \frac{R_5}{R_4} + 1 \right) v_2$$
 Before hitting the final anti-log stage, there is a voltage divider between $v_3$ and $v_4$:
 
 $$v_4 = \frac{R_B}{R_B + R_A} v_3$$
+
 $$v_4 = \left(\frac{R_B}{R_B + R_A}\right) \left( \frac{R_5}{R_4} + 1 \right) (-V_t) \log{v_{in}} $$
+
 ## Third stage
 
 The first thing to note is that in this stage we also have a matched pair of transistors $Q_{3,4}$. We write the currents $I_3$ and $I_4$ across $Q_3$ and $Q_4$ as such:
@@ -107,6 +111,7 @@ $$\frac{V_{CC} R_E}{R_C} = 1 \Rightarrow v_4 = -V_t \log{v_o}$$
 The final gain can be obtained by multiplying all the individual stage gains and we obtain the formula:
 
 $$v_o = v_{in}^{\frac{R_A}{R_A + R_B} \left( \frac{R_5}{R_4}+1 \right)} $$
+
 ## Results - Simulation
 
 Using $V_{cc}=-V_{ee}=15V$,  $R_1 = R_E = R_3/V_{cc} = R_C/V_{cc} = 10k\Omega$, we can set the gain of the circuit to be 1/2 through: $R_5 = R_4 = 10k\Omega$ and $R_A = 30k\Omega, R_B = 10k\Omega$. The simulation used the LM324N for the opamps and BC547C as the NPN transistors, both from LtSpice's library. No temperature change in the components was simulated and they are considered to be perfectly matched, the results are the following:

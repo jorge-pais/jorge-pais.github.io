@@ -7,7 +7,7 @@ tags:
 categories:
     - projects
 
-permalink_name: /projects
+permalink_name: projects
 ---
 
 <!-- # The Muffler Delete -->
@@ -36,7 +36,6 @@ Before we can do anything to the signal coming from the guitar, we need to ampli
 
 <img class="center" src="/img/2022-03-10-The-Muffler-Delete/InputStage.png" alt="Input Stage" width="550">
 
-
 It is essentially a common emitter with series-shunt feedback amplifier, which provides better voltage gain stability, better frequency response and improved linearity when compared to a simple common emitter amplifier. R6 and R7 represent a 100kOhm linear potentiometer, which determine how much of the amplified signal passes on to the subsequent stage. Capacitor C1 forms a high pass filter and C2 is a miller capacitor forming a low pass filter while also preventing oscillation.
 
 ### The clipping stages
@@ -53,7 +52,6 @@ Replacing the clipping diodes on a Big Muff is a quick and easy way to change th
 After clipping the signal the tone stack is responsible for modifying the frequency content of the sound. The circuit is essentially mixture of a low-pass and a high-pass filter, resulting in the famous ‘mid-scoop’ that the Big Muff is known for.
 
 <img class="center" src="/img/2022-03-10-The-Muffler-Delete/Tonestack.png" alt="Tonestack" width="300">
-
 
 C10 and R22 form an high-pass filter, and C11 and R19 for a low-pass filter, while R20 and R21 represent the 100kOhm linear potentiometer controlling the blend of both filters
 

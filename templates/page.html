@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>$if(title)$$title$ - $endif$Jorge Pais</title>
+  <link rel="stylesheet" href="/css/main.css">
+$if(highlighting-css)$
+  <style>
+$highlighting-css$
+  </style>
+$endif$
+</head>
+
+<body>
+
+  <header>
+    <div class="menu">
+      <ul>
+        <li class="page_title">$if(title)$$title$$endif$</li>
+        <li><a href="/">/home</a></li>
+        <li><a href="/resume">/resume</a></li>
+        <li><a href="/articles">/articles</a></li>
+      </ul>
+    </div>
+  </header>
+
+$if(detail_image)$  <img class="home_header" src="$detail_image$">
+$endif$
+  $body$
+
+  <footer>
+    Jorge Pais/$if(permalink_name)$$permalink_name$$endif$
+    <br><br>
+    Email: <a href="mailto:jorge27pais@gmail.com">jorge27pais@gmail.com</a>
+    &nbsp;&nbsp;
+    Github: <a href="https://github.com/jorge-pais">@jorge-pais</a>
+    &nbsp;&nbsp;
+    Linkedin: <a href="https://linkedin.com/in/jorg3-pais">/jorg3-pais</a>
+  </footer>
+
+</body>
+</html>
