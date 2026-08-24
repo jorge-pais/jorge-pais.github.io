@@ -9,15 +9,19 @@ permalink_name: articles
 - [Month Year - Title](/projects/YYYY/MM/DD/slug/)
 -->
 
-### Programming
+# Journal
 
-- [March 2026 - Sleep from scratch - Introduction to amd64 bare metal](/projects/2026/03/02/Sleep-from-scratch---Introduction-to-amd64-baremetal-programming/)
+- [August 2026 - Friendship (amizade), live sound and mental health](/articles/2026/08/24/Amizade_Fest_Recap/)
 
-### Electronics
+# Programming
 
-- [February 2025 - Square Root Analog Calculator](/projects/2025/02/06/Square-Root-Analog-Calculator/)
+- [March 2026 - Sleep from scratch - Introduction to amd64 bare metal](/articles/2026/03/02/Sleep-from-scratch---Introduction-to-amd64-baremetal-programming/)
 
-### Music Electronics
+# Electronics
 
-- [March 2022 - The Muffler Delete](/projects/2022/03/10/The-Muffler-Delete/)
-- [December 2021 - (TEST ARTICLE) DIY MIDI Controller](/projects/2021/12/31/DIY-midi-keyboard-part-1/)
+- [February 2025 - Square Root Analog Calculator](/articles/2025/02/06/Square-Root-Analog-Calculator/)
+
+# Music Electronics
+
+- [March 2022 - The Muffler Delete](/articles/2022/03/10/The-Muffler-Delete/)
+- [December 2021 - (TEST ARTICLE) DIY MIDI Controller](/articles/2021/12/31/DIY-midi-keyboard-part-1/)

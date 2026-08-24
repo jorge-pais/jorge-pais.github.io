@@ -29,7 +29,7 @@ for i in "${!posts[@]}"; do
   slug="${base:11}"
   slug="${slug// /-}"   # replace spaces with hyphens
 
-  outdir="$SITE/projects/$year/$month/$day/$slug"
+  outdir="$SITE/articles/$year/$month/$day/$slug"
   mkdir -p "$outdir"
   echo "  [POST] $slug"
 
@@ -42,7 +42,7 @@ for i in "${!posts[@]}"; do
     py="${pbase:0:4}"; pm="${pbase:5:2}"; pd="${pbase:8:2}"
     pslug="${pbase:11}"; pslug="${pslug// /-}"
     ptitle=$(grep -m1 '^title:' "$prev" | sed 's/^title:[[:space:]]*//;s/^"//;s/"$//')
-    nav_args+=(--variable "prev_url=/projects/$py/$pm/$pd/$pslug/")
+    nav_args+=(--variable "prev_url=/articles/$py/$pm/$pd/$pslug/")
     nav_args+=(--variable "prev_title=$ptitle")
   fi
 
@@ -53,7 +53,7 @@ for i in "${!posts[@]}"; do
     ny="${nbase:0:4}"; nm="${nbase:5:2}"; nd="${nbase:8:2}"
     nslug="${nbase:11}"; nslug="${nslug// /-}"
     ntitle=$(grep -m1 '^title:' "$next" | sed 's/^title:[[:space:]]*//;s/^"//;s/"$//')
-    nav_args+=(--variable "next_url=/projects/$ny/$nm/$nd/$nslug/")
+    nav_args+=(--variable "next_url=/articles/$ny/$nm/$nd/$nslug/")
     nav_args+=(--variable "next_title=$ntitle")
   fi
 
