@@ -36,6 +36,7 @@ $$V_o = V_s^{K_4K_1\alpha}$$
 The task should be easy then, simply build this 3 stage amplifier, while determining the values needed for the power factor to 1/2, and voila, we have an analog computer capable for calculating square roots.
 
 Well... at least in theory...
+
 ## First stage
 
 Assuming the current across $R_1$ to be $I_1$:
