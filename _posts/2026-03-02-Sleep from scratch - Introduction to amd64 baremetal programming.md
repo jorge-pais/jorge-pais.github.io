@@ -106,6 +106,7 @@ long syscall3(long number, long arg1, long arg2, long arg3){
 | `arg3`         | **RDX**      | `"d"`          |
 
 Notice the last line: `: "rcx", "r11", "memory"`. This is arguably the most important part for stability. When the `syscall` instruction executes, the Intel/AMD architecture specifies that the CPU destroys whatever was in the `RCX` and `R11` registers to store the return address and processor flags. Without this, your program might work 99% of the time but crash randomly when the compiler happens to use `RCX` for a loop counter.
+
 ## Writing to the console
 
 Now that we have a way to trigger the syscall, we can finally do something visible on our program. We use `SYS_write` ([see a list of all linux syscalls here](https://filippo.io/linux-syscall-table/)) to send a string of bytes to stdout.

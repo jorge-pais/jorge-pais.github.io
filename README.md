@@ -21,3 +21,5 @@ pandoc --syntax-highlighting my.theme
 ```
 
 Check the [pandoc syntax-highlighting](https://pandoc.org/demo/example33/15-syntax-highlighting.html) documentation for more information on this
+
+> OK SCRATCH THAT, the pandoc in the ubuntu image i am using does not work with this new version (of course...)
