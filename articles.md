@@ -12,6 +12,7 @@ permalink_name: articles
 # Journal
 
 - [August 2026 - Friendship (amizade), live sound and mental health](/articles/2026/08/24/Amizade_Fest_Recap/)
+- [March 2025 - Why I don't have LinkedIn, and how I don't care](/articles/2025/03/24/Screw_Linked_in/)
 
 # Programming
 
