@@ -1,4 +1,4 @@
-# My porfolio page
+# My portfolio/blog page
 
 Build the webpage using make. Make sure you have the necessary linux utilities: bash 4.0+, pandoc, python, e.t.c.
 
@@ -6,4 +6,6 @@ Build the webpage using make. Make sure you have the necessary linux utilities: 
 make all   # build the website
 make serve # build and serve to localhost:8080
 ```
+
+Access it on the github pages link: [jorge-pais.github.io](https://jorge-pais.github.io)
 
