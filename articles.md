@@ -18,6 +18,7 @@ permalink_name: articles
 
 - [August 2026 - Migrating from Jekyll to Pandoc templates](/articles/2026/08/30/Migrating_jekyll_to_pandoc)
 - [March 2026 - Sleep from scratch - Introduction to amd64 bare metal](/articles/2026/03/02/Sleep-from-scratch---Introduction-to-amd64-baremetal-programming/)
+- [March 2024 - Neural Network from Scratch - Solving MNIST using RUST](/articles/2024/11/11/Neural_Network_from_Scratch/)
 
 # Electronics
 
